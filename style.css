@@ -127,6 +127,12 @@ body {
     opacity: 1;
 }
 
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none !important;
+    }
+}
+
 .project-card {
     background: linear-gradient(135deg, #373a60, #4e4376);
     border-radius: 12px;
